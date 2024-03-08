@@ -19902,7 +19902,7 @@ pre[class*=language-] > code {
     2. Custom css end
 ==========================  **/
 .pc-sidebar {
-  background: var(--pc-sidebar-background);
+  background: #131920;
   width: 280px;
   position: fixed;
   top: 0;
@@ -19974,7 +19974,7 @@ pre[class*=language-] > code {
 .pc-sidebar .pc-link {
   display: block;
   padding: 14px 20px;
-  color: var(--pc-sidebar-color);
+  color: rgba(255, 255, 255, 0.5);
   position: relative;
   font-size: 14px;
   font-weight: 400;
@@ -20102,7 +20102,14 @@ pre[class*=language-] > code {
 .pc-sidebar .card.pc-user-card {
   margin: 0 15px 15px;
   box-shadow: none;
-  background: var(--pc-sidebar-user-background);
+  background: #1b232d;
+  border-color: #263240;
+}
+.pc-user-card h6{
+    color:rgba(255, 255, 255, 0.8);
+}
+.pc-user-card small{
+    color:rgba(255, 255, 255, 0.5)
 }
 .pc-sidebar .card.pc-user-card .card-body {
   padding: 20px;
@@ -22609,6 +22616,20 @@ pre[class*=language-] > code {
   background-color: #fff;
 }
 
+
+.pc-user-card .btn-link-secondary {
+  background: transparent;
+  color: #bfbfbf;
+  border-color: transparent;
+}
+.pc-user-card .btn-link-secondary:hover {
+  background: rgba(91, 107, 121, 0.2) !important;
+  border-color: rgba(91, 107, 121, 0.2) !important;
+}
+.pc-user-card .btn-link-secondary:focus {
+  background: rgba(91, 107, 121, 0.2) !important;
+  border-color: rgba(91, 107, 121, 0.2) !important;
+}
 .btn-link-secondary {
   background: transparent;
   color: #5b6b79;
