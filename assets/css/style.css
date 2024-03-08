@@ -20193,7 +20193,7 @@ pre[class*=language-] > code {
   .pc-sidebar {
     left: -280px;
     box-shadow: none;
-    background: var(--bs-body-bg);
+    background: #131920;
     top: 0;
     transition: all 0.2s ease-in-out;
   }
